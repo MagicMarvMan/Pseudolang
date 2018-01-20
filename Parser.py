@@ -1,6 +1,6 @@
-from Engine import *
+import engine
 
-class Parser(Engine):
+class Parser(engine.Engine):
     def getStrippedMultiLineString(self, str):
         return str.splitlines()
 

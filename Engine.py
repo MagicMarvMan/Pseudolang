@@ -1,4 +1,5 @@
 
-class Engine:
-    def __init__(self):
-        # INITIALIZED
+class Engine():
+
+    def getVersion(self):
+        return 1
