@@ -1,4 +1,5 @@
 import pseudolang
+import sys
 
 if len(sys.argv) > 0:
     pseudol = pseudolang.Pseudolang()
