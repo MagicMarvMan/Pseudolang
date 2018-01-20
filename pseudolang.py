@@ -8,4 +8,4 @@ class Pseudolang(engine.Engine):
     cmds = commands.Commands()
 
     def executeCommand(self, cmd):
-        self.cmds.mainCommands([cmd])
+        self.cmds.mainCommand([cmd])
