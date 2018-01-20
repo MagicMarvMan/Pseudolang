@@ -3,6 +3,6 @@ import sys
 
 if len(sys.argv) > 1:
     pseudol = pseudolang.Pseudolang()
-    pseudol.executeCommand(sys.argv[1])
+    pseudol.executeCommand(sys.argv)
 else:
     print("Error: No command supplied!")

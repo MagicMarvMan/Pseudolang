@@ -5,7 +5,7 @@ import reader
 class Commands(engine.Engine):
 
     def mainCommand(self, args):
-        cmd = args[0]
+        cmd = args[1]
 
         if cmd == "v":
             return "Pseudolang Alpha-0.1"
